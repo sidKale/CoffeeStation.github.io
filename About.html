@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coffee Station</title>
-    <link rel="icon" href="Static/Images/icon.png" type="image/icon type" />
-    <link rel="stylesheet" href="Static/style.css" />
+    <link rel="icon" href="Images/icon.png" type="image/icon type" />
+    <link rel="stylesheet" href="Styles/style.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -21,7 +21,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-custom" id="navbar">
-      <a class="navbar-brand" href="Main.html">Coffee Station</a>
+      <a class="navbar-brand" href="index.html">Coffee Station</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -35,7 +35,7 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="Main.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">About</a>
@@ -49,27 +49,34 @@
               >Products</a
             >
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="Accessories.html">Accessories</a>
-              <a class="dropdown-item" href="Coffee.html">Coffees</a>
-              <a class="dropdown-item" href="Cookies-Donuts.html"
+              <a class="dropdown-item" href="product-accessories.html"
+                >Coffee Products</a
+              >
+              <a class="dropdown-item" href="product-coffee.html">Coffees</a>
+              <a class="dropdown-item" href="product-cookie&donut.html"
                 >Cookies & Donuts</a
               >
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Outlet.html">Outlet</a>
+            <a class="nav-link" href="outlet.html">Outlet</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+    <div class="Bg-container">
+      <div class="text">
+        <h1>About Us</h1>
+      </div>
+    </div>
     <div class="info-container">
       <div class="media">
-        <img src="Static/Images/cafe.jpg" alt="" class="about-image" />
+        <img src="Images/cafe.jpg" alt="" class="about-image" />
         <div class="media-body">
-          <h2>About our Coffee Station</h2>
+          <h2>About Coffee Station</h2>
           <p class="media-align">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
             qui temporibus odit vero tempore? Et enim modi, velit quasi, quis
@@ -98,6 +105,176 @@
         </div>
       </div>
     </div>
+    <div class="Customer-Reviews">
+      <div
+        id="demo"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="2500"
+      >
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="review-section">
+          <h3 class="review-title">Customer Reviews</h3>
+          <p class="note-temp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+            voluptatum animi eligendi aspernatur perferendis?
+          </p>
+          <div class="reviews" id="reviews">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="review">
+                  <div class="review-body">
+                    <div class="reviewer-name">Ramesh</div>
+                    <div class="reviewer-location">Mumbai</div>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="review-descrip">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Excepturi, sint fuga? Laudantium debitis repellat
+                        maxime nesciunt perspiciatis natus sint temporibus
+                        quidem distinctio harum. Magnam quos nemo laboriosam
+                        voluptatem officia adipisci asperiores possimus. Labore
+                        odit architecto inventore quo libero odio a, non dolores
+                        magnam vitae vel sequi minus, voluptates velit
+                        voluptatum numquam. Nobis autem ab sit, cumque illo
+                        quos, quibusdam consequuntur soluta ipsam a, pariatur
+                        sint accusantium vel cum quae natus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="review">
+                  <div class="review-body">
+                    <div class="reviewer-name">Suresh</div>
+                    <div class="reviewer-location">Thane</div>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half"></i>
+                    </div>
+                    <div class="review-descrip">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Excepturi, sint fuga? Laudantium debitis repellat
+                        maxime nesciunt perspiciatis natus sint temporibus
+                        quidem distinctio harum. Magnam quos nemo laboriosam
+                        voluptatem officia adipisci asperiores possimus. Labore
+                        odit architecto inventore quo libero odio a, non dolores
+                        magnam vitae vel sequi minus, voluptates velit
+                        voluptatum numquam. Nobis autem ab sit, cumque illo
+                        quos, quibusdam consequuntur soluta ipsam a, pariatur
+                        sint accusantium vel cum quae natus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="review">
+                  <div class="review-body">
+                    <div class="reviewer-name">Naresh</div>
+                    <div class="reviewer-location">Kalyan</div>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="review-descrip">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Excepturi, sint fuga? Laudantium debitis repellat
+                        maxime nesciunt perspiciatis natus sint temporibus
+                        quidem distinctio harum. Magnam quos nemo laboriosam
+                        voluptatem officia adipisci asperiores possimus. Labore
+                        odit architecto inventore quo libero odio a, non dolores
+                        magnam vitae vel sequi minus, voluptates velit
+                        voluptatum numquam. Nobis autem ab sit, cumque illo
+                        quos, quibusdam consequuntur soluta ipsam a, pariatur
+                        sint accusantium vel cum quae natus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="review">
+                  <div class="review-body">
+                    <div class="reviewer-name">Veer</div>
+                    <div class="reviewer-location">Dombivali</div>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half"></i>
+                    </div>
+                    <div class="review-descrip">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Excepturi, sint fuga? Laudantium debitis repellat
+                        maxime nesciunt perspiciatis natus sint temporibus
+                        quidem distinctio harum. Magnam quos nemo laboriosam
+                        voluptatem officia adipisci asperiores possimus. Labore
+                        odit architecto inventore quo libero odio a, non dolores
+                        magnam vitae vel sequi minus, voluptates velit
+                        voluptatum numquam. Nobis autem ab sit, cumque illo
+                        quos, quibusdam consequuntur soluta ipsam a, pariatur
+                        sint accusantium vel cum quae natus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="review">
+                  <div class="review-body">
+                    <div class="reviewer-name">Simba</div>
+                    <div class="reviewer-location">Navi Mumbai</div>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half"></i>
+                    </div>
+                    <div class="review-descrip">
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Excepturi, sint fuga? Laudantium debitis repellat
+                        maxime nesciunt perspiciatis natus sint temporibus
+                        quidem distinctio harum. Magnam quos nemo laboriosam
+                        voluptatem officia adipisci asperiores possimus. Labore
+                        odit architecto inventore quo libero odio a, non dolores
+                        magnam vitae vel sequi minus, voluptates velit
+                        voluptatum numquam. Nobis autem ab sit, cumque illo
+                        quos, quibusdam consequuntur soluta ipsam a, pariatur
+                        sint accusantium vel cum quae natus.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="about-social-privacy">
       <div class="social">
         <ul>
@@ -117,7 +294,7 @@
       <div class="privacy">
         <p>
           &COPY; 2021 COFFEE STATION. All Rights Reserved.
-          <a href="Privacy.html">Privacy Policy</a>
+          <a href="#">Privacy Policy</a>
         </p>
       </div>
     </div>
